@@ -5,7 +5,7 @@ Ce projet utilise Kafka et Docker pour récupérer les données météorologique
 Le but de ce projet est de :\
 Récupérer les données météorologiques en temps réel pour les capitales européennes via l'API d'OpenWeather.\
 Publier les données dans un topic Kafka (weather_data).\
-Consommer les données de ce topic et les stocker dans une base de données MySQL pour analyse ultérieure.\
+Consommer les données de ce topic et les stocker dans une base de données MySQL pour analyse ultérieure.
 
 ## Technologies Utilisées
 Python : pour le développement du producteur et du consommateur.\
@@ -17,12 +17,13 @@ dotenv : pour gérer les variables d'environnement de manière sécurisée.
 
 
 ## Prérequis
-Compte sur OpenWeather pour obtenir une clé API.
-Docker et Docker Compose installés.
+Compte sur OpenWeather pour obtenir une clé API.\
+Docker et Docker Compose installés.\
 Python 3.x installé.
 
 ## fichier .env
-En fait, son contenu doit ressembler exactement à ça.
+En fait, son contenu doit ressembler exactement à ça.\
+
 API_KEY : votre clé API OpenWeather.\
 MYSQL_USER : nom d'utilisateur MySQL.\
 MYSQL_PASSWORD : mot de passe MySQL.\
@@ -51,7 +52,7 @@ Enfin, je suis allé sur pour s'assurer que la base de donnée a été bien cré
 requête simple "select * from weather_data"
 ![test_requêtes_SQL](https://github.com/user-attachments/assets/481d2108-7ca4-4549-b349-6035ae70e0ec)
 
-## Vos contributions sont les bienvenues !
+Vos contributions sont les bienvenues !
 
 
 
