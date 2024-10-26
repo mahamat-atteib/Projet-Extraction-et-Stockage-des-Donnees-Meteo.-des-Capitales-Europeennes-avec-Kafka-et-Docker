@@ -1,1 +1,1 @@
-# Projet-Recup-ration-et-Stockage-des-Donnees-Meteo.-des-Capitales-Europeennes-avec-Kafka-et-Docker
+# Projet-Recupération-et-Stockage-des-Données-Météo.-des-Capitales-Européennes-avec-Kafka-et-Docker
