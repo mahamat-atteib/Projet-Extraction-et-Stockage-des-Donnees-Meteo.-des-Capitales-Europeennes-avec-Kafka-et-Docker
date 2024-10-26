@@ -3,9 +3,9 @@
 Ce projet utilise Kafka et Docker pour récupérer les données météorologiques en temps réel des capitales européennes. Les données sont envoyées à un consommateur Kafka qui les stocke ensuite dans une base de données MySQL. Les informations météorologiques sont obtenues via l'API d'OpenWeather, puis publiées dans un topic Kafka, permettant leur traitement en temps réel.
 
 Le but de ce projet est de :\
-Récupérer les données météorologiques en temps réel pour les capitales européennes via l'API d'OpenWeather.\
-Publier les données dans un topic Kafka (weather_data).\
-Consommer les données de ce topic et les stocker dans une base de données MySQL pour analyse ultérieure.
+> Récupérer les données météorologiques en temps réel pour les capitales européennes via l'API d'OpenWeather.\
+> Publier les données dans un topic Kafka (weather_data).\
+> Consommer les données de ce topic et les stocker dans une base de données MySQL pour analyse ultérieure.
 
 ## Technologies Utilisées
 Python : pour le développement du producteur et du consommateur.\
