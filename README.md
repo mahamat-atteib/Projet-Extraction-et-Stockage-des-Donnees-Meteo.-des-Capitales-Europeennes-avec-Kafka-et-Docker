@@ -1,4 +1,4 @@
-# Projet-Recupération-et-Stockage-des-Données-Météo.-des-Capitales-Européennes-avec-Kafka-et-Docker
+# Projet : Recupération et Stockage des Données Météorologiques des Capitales Européennes avec Kafka et Docker
 
 Ce projet utilise Kafka et Docker pour récupérer les données météorologiques en temps réel des capitales européennes. Les données sont envoyées à un consommateur Kafka qui les stocke ensuite dans une base de données MySQL. Les informations météorologiques sont obtenues via l'API d'OpenWeather, puis publiées dans un topic Kafka, permettant leur traitement en temps réel.
 
@@ -8,11 +8,11 @@ Publier les données dans un topic Kafka (weather_data).
 Consommer les données de ce topic et les stocker dans une base de données MySQL pour analyse ultérieure.
 
 ## Technologies Utilisées
-Python : pour le développement du producteur et du consommateur.
-Kafka : pour la gestion du flux de données en temps réel.
-MySQL : pour stocker les données météorologiques.
-OpenWeather API : pour obtenir les informations météorologiques.
-Docker : pour déployer Kafka, Zookeeper, et MySQL dans des conteneurs.
+Python : pour le développement du producteur et du consommateur.\
+Kafka : pour la gestion du flux de données en temps réel.\
+MySQL : pour stocker les données météorologiques.\
+OpenWeather API : pour obtenir les informations météorologiques.\
+Docker : pour déployer Kafka, Zookeeper, et MySQL dans des conteneurs.\
 dotenv : pour gérer les variables d'environnement de manière sécurisée.
 
 
