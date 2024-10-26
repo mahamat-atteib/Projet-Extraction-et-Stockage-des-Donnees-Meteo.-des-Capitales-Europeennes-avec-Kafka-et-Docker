@@ -2,7 +2,7 @@
 
 Ce projet utilise Kafka et Docker pour récupérer les données météorologiques en temps réel des capitales européennes. Les données sont envoyées à un consommateur Kafka qui les stocke ensuite dans une base de données MySQL. Les informations météorologiques sont obtenues via l'API d'OpenWeather, puis publiées dans un topic Kafka, permettant leur traitement en temps réel.
 
-Le but de ce projet est de :
+Le but de ce projet est de :\
 Récupérer les données météorologiques en temps réel pour les capitales européennes via l'API d'OpenWeather.\
 Publier les données dans un topic Kafka (weather_data).\
 Consommer les données de ce topic et les stocker dans une base de données MySQL pour analyse ultérieure.\
@@ -31,19 +31,19 @@ MYSQL_DATABASE : nom de la base de données MySQL pour stocker les données mét
 
 
 ## Lancer Docker Compose :
-Déployez Kafka, Zookeeper et MySQL en utilisant Docker Compose :
+Déployez Kafka, Zookeeper et MySQL en utilisant Docker Compose :\
 docker-compose up -d
 ![commandes_bash](https://github.com/user-attachments/assets/56507457-db2d-4903-a65f-255e232cdd46)
 
 ## Utilisation
 
 ### Lancer le Producteur :
-Le producteur récupère les données météorologiques de chaque capitale européenne et les publie dans Kafka.
+Le producteur récupère les données météorologiques de chaque capitale européenne et les publie dans Kafka.\
 python producer.py
 ![execution_producer](https://github.com/user-attachments/assets/c5eb15bf-e034-4572-b3c8-1dbca849779b)
 
 ### Lancer le Consommateur :
-Le consommateur lit les messages du topic Kafka weather_data et insère les données dans la base de données MySQL.
+Le consommateur lit les messages du topic Kafka weather_data et insère les données dans la base de données MySQL.\
 python consumer.py
 ![execution_consumer](https://github.com/user-attachments/assets/274ca39f-cfb4-4839-90d8-e8026b08e20b)
 
